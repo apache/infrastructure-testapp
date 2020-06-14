@@ -1,0 +1,11 @@
+[Unit]
+Description=Pipservice Test Application
+ 
+[Service]
+Type=simple
+WorkingDirectory=/opt/testapp
+ExecStart=/usr/bin/pipenv run python3 testapp.py
+Restart=on-failure
+ 
+[Install]
+WantedBy=multi-user.target
