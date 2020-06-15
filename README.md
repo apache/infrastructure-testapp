@@ -9,4 +9,4 @@ pipservice:
     tag: 'master'
 ~~~
 
-It should then install the pips, enable the service as laid out in systemd.service and run it, producing a "test app still works" every minute in syslog.
+It should then install the pips, enable the service as laid out in the testapp.service systemd script and run it, producing a "test app still works" every minute in syslog.
