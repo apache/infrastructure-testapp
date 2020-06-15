@@ -1,3 +1,4 @@
 requests
 certifi
 netaddr
+asfpy>=0.20
