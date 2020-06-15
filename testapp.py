@@ -3,6 +3,7 @@
 import certifi    # Testing pipenv installed the mods
 import netaddr    # Testing more...
 import time
+import asfpy.syslog
 
 print = asfpy.syslog.Printer(identity='testApp')
 
